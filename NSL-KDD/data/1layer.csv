@@ -1,0 +1,210 @@
+round_epochs,val_loss,val_acc,loss,acc,first_neuron,batch_size,epochs,epochs2,dropout,kernel_initializer,optimizer,lr,activation
+50,2.147355676,0.82350071,0.015735122,0.996729458,80,256,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.621722847,0.816004258,0.006390444,0.998364729,40,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<function relu at 0x00000153CA8B8C80>
+50,1.990073233,0.81578247,0.004389935,0.998674319,100,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.961625012,0.81462917,0.004419604,0.998698134,100,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.260117281,0.813875089,0.00519252,0.998428235,60,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.924186989,0.811745919,0.004020444,0.998634628,80,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.989043044,0.8113467,0.005716981,0.998499679,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<function elu at 0x00000153CA8B8A60>
+50,1.299966374,0.810415188,0.003769915,0.998841021,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.374413989,0.810237757,0.005426051,0.998372667,20,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.805426919,0.810015969,0.006095694,0.998483802,40,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.01,<function elu at 0x00000153CA8B8A60>
+50,1.289515173,0.810015969,0.005345065,0.998380605,80,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,1.360830622,0.808907026,0.004863308,0.998459987,80,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,1.883876772,0.808419092,0.013153042,0.996919975,20,256,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.926868666,0.807354507,0.00849387,0.998285347,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<function selu at 0x00000153B9DA0730>
+50,1.989195639,0.805225337,0.003929558,0.998761639,60,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.903440945,0.804027679,0.004119583,0.998745763,40,256,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.979629573,0.803495387,0.004048349,0.998793392,60,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.01,<function relu at 0x00000153CA8B8C80>
+50,1.945841967,0.803096167,0.006048907,0.99840442,100,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.01,<function elu at 0x00000153CA8B8A60>
+50,1.928263056,0.802830021,0.007397213,0.99809483,40,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.01,<function selu at 0x00000153B9DA0730>
+50,2.229274466,0.802563875,0.022773188,0.996022957,100,256,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.016206788,0.802253371,0.006599182,0.998174212,20,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.01,<function selu at 0x00000153B9DA0730>
+50,2.041249753,0.802164656,0.019881717,0.996816778,100,256,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.40727452,0.802031583,0.004067742,0.998761639,80,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.552468665,0.802031583,0.003501314,0.998864836,100,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.129307691,0.80149929,0.005319771,0.998515555,60,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.858230901,0.801233144,0.005679694,0.998309161,20,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.01,<function relu at 0x00000153CA8B8C80>
+50,1.312355221,0.801011356,0.005096523,0.998475864,60,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,1.987855287,0.800434705,0.005756465,0.998666381,100,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<function relu at 0x00000153CA8B8C80>
+50,1.347906633,0.800168559,0.003909318,0.998825145,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.001,<function relu at 0x00000153CA8B8C80>
+50,1.371393227,0.800079844,0.005504672,0.998356791,40,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,1.57334485,0.79919269,0.003545269,0.998912465,100,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.125860728,0.79861604,0.004865855,0.998618752,40,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.041960439,0.797995032,0.006252456,0.998547308,100,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<function elu at 0x00000153CA8B8A60>
+50,1.391199561,0.797551455,0.004811869,0.998531431,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,1.454763494,0.79746274,0.003902341,0.998809269,60,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.401666069,0.797019163,0.005032628,0.998563184,80,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,1.277773183,0.796841732,0.005304957,0.998412358,60,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,1.378451984,0.796797374,0.003838298,0.998872774,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.565757133,0.796753016,0.003809806,0.998753701,60,256,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.390382479,0.796708659,0.083544751,0.987402062,60,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,0.931852929,0.796575586,0.013189284,0.996094401,60,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,1.914250227,0.796442512,0.007596274,0.998372667,60,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.01,<function elu at 0x00000153CA8B8A60>
+50,2.105332389,0.795732789,0.029414294,0.994300366,20,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.50525133,0.795732789,0.004642905,0.998586999,40,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.166213496,0.794801278,0.010855032,0.997062863,60,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.325627444,0.794091554,0.003142293,0.998975971,100,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<function relu at 0x00000153CA8B8C80>
+50,1.524633509,0.79378105,0.003355772,0.998920404,100,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.395639168,0.793647977,0.00472172,0.998571122,100,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,1.473537927,0.793160043,0.00444324,0.998642566,80,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,2.306660418,0.792805181,0.075400875,0.980027466,80,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,1.932170775,0.791740596,0.005119419,0.99849174,20,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.019098502,0.790853442,0.009932924,0.99725338,100,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.459742619,0.790188077,0.003626372,0.998880713,100,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.443488344,0.788901703,0.005471043,0.998380605,20,256,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.01,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,0.997595197,0.788369411,0.010221204,0.997110492,80,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.159212693,0.787748403,0.007974154,0.997864622,20,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.001,<function relu at 0x00000153CA8B8C80>
+50,0.989618977,0.787526615,0.012145819,0.996737396,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,0.998058539,0.786107168,0.014435166,0.996062648,40,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,1.536728115,0.785974095,0.005093293,0.998412358,60,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,1.347618373,0.785752307,0.008198179,0.99773761,20,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<function relu at 0x00000153CA8B8C80>
+50,2.418729605,0.784953868,0.04680533,0.992125297,20,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,2.178352427,0.784820795,0.078483053,0.989616823,40,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.303091736,0.784510291,0.005387446,0.998285347,80,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,1.614642307,0.783889283,0.008583628,0.997832869,20,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,1.551063104,0.783889283,0.005687156,0.998388544,40,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<function selu at 0x00000153B9DA0730>
+50,0.91169095,0.783889283,0.0122548,0.996602447,100,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,0.925503458,0.783711852,0.012833728,0.996157907,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.044586331,0.783356991,0.012007123,0.996538941,60,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,1.067046849,0.782869056,0.016502492,0.995260889,60,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.056897624,0.782647268,0.019612891,0.994808411,40,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.092997804,0.782070617,0.014100693,0.995959452,40,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,2.15061902,0.781848829,0.040148579,0.988719805,80,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,1.088773908,0.781227821,0.008893273,0.997515341,80,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,3.215556701,0.78047374,0.112112634,0.991791892,20,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,1.415860418,0.780207594,0.008402739,0.99778524,20,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<function elu at 0x00000153CA8B8A60>
+50,1.507951817,0.779098652,0.008627621,0.99765029,20,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.061289364,0.779009936,0.028162014,0.992450763,20,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.146044707,0.779009936,0.005855753,0.998388544,100,256,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,0.99060564,0.777945351,0.013520144,0.995983266,100,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,0.941591169,0.776925124,0.018451768,0.995070372,40,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,1.153050405,0.776747693,0.018619135,0.995197384,40,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,1.017615654,0.775860539,0.015400564,0.995284704,80,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.098209807,0.774219304,0.016099455,0.995768935,60,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,1.027342157,0.774219304,0.016028531,0.995689553,60,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,0.983802783,0.774174947,0.013596366,0.996173783,100,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.799660862,0.773908801,0.027086058,0.992855612,40,256,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.745300397,0.772844216,0.027458255,0.992665095,100,256,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.039928369,0.771957062,0.010240153,0.997301009,100,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,0.860681255,0.770537615,0.033237897,0.990220127,100,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function selu at 0x00000153B9DA0730>
+50,1.018005729,0.769739177,0.023839095,0.993490669,20,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,1.717086927,0.769739177,0.026491786,0.993022314,80,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,3.706206192,0.769650461,0.199098983,0.987640209,40,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,1.480840564,0.769561746,0.027261139,0.992736539,40,256,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.452995213,0.769473031,0.02632228,0.993054067,100,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.310421886,0.769339957,0.005206011,0.998475864,40,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.001,<function relu at 0x00000153CA8B8C80>
+50,1.945982569,0.769073811,0.033126939,0.991387043,60,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.84269357,0.76889638,0.027690826,0.992585713,60,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.385406023,0.767654365,0.026208402,0.993157264,40,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.559612917,0.767610007,0.026377872,0.993189017,60,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,0.908728585,0.767210788,0.016823882,0.995372024,40,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,1.093252398,0.766456707,0.010322295,0.997007295,60,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.093040968,0.766367991,0.019154191,0.9946814,40,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.0001,<function selu at 0x00000153B9DA0730>
+50,1.131556556,0.766323634,0.023615204,0.99339541,20,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,3.278986039,0.766057488,0.086532532,0.985488954,20,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,1.734781311,0.765480837,0.027277895,0.992728601,60,256,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.552718845,0.765347764,0.025826778,0.993204893,20,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.151299916,0.764992903,0.029965202,0.992577775,20,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.614515055,0.764726757,0.026198043,0.992982623,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.431321596,0.764726757,0.025763461,0.993149326,60,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.94257353,0.764638041,0.028968091,0.992117358,40,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.01,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.020118846,0.76446061,0.033899592,0.991593437,40,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.212864546,0.763928318,0.025784091,0.993141387,40,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,0.895312753,0.763839603,0.03199061,0.990331261,100,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,1.523441379,0.763750887,0.025782024,0.993101696,20,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.039519748,0.763440383,0.026911738,0.99286355,20,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,1.322380542,0.76330731,0.011695825,0.996999357,20,256,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,0.933104237,0.762198368,0.031561139,0.991426734,100,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.122370588,0.76100071,0.030717862,0.992014162,60,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.034569822,0.760911994,0.033020896,0.99051384,100,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,1.19900655,0.760645848,0.034533594,0.991394981,20,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,0.979089456,0.759536906,0.01336022,0.995713367,60,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,0.964142637,0.759492548,0.033218084,0.990767863,80,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,2.119402842,0.759492548,0.06757897,0.98510792,40,256,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.702710542,0.759226402,0.02568201,0.993204893,60,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,2.154509184,0.759093329,0.056438318,0.981051495,100,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,1.36943158,0.758782825,0.025824644,0.993149326,20,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.015909403,0.757895671,0.031145157,0.991918903,60,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.659630139,0.757230305,0.025791201,0.99322077,20,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.199491334,0.757052874,0.020033546,0.994498821,40,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,0.994912275,0.756343151,0.036106293,0.99020425,80,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function selu at 0x00000153B9DA0730>
+50,3.809353253,0.755677786,0.148070291,0.983464711,40,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,2.25245888,0.754879347,0.07393461,0.979027252,100,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,0.96951861,0.754834989,0.037019633,0.990172497,80,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,0.916169099,0.754568843,0.010242895,0.996991419,80,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.123309437,0.754568843,0.03774492,0.990037548,80,256,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.287614177,0.75443577,0.023755625,0.993871703,20,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,1.211044762,0.754169624,0.018764388,0.994919546,40,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.072684096,0.754036551,0.036344972,0.990164559,80,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.161255222,0.753592974,0.034201827,0.990617037,80,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.170207658,0.753105039,0.030026765,0.992061791,40,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.000451476,0.752750177,0.07353061,0.976050424,40,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.027594663,0.752439674,0.016932025,0.995602232,40,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<function elu at 0x00000153CA8B8A60>
+50,1.153705972,0.752262243,0.034614711,0.991140959,100,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.121508255,0.751996097,0.037246072,0.990410644,80,256,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.225415114,0.751863023,0.027760777,0.992569836,100,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.166093282,0.751818666,0.026286189,0.992871488,40,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.054788886,0.751197658,0.046912359,0.984679257,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,1.054535167,0.751064585,0.039640784,0.989100839,60,256,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.175224548,0.750221789,0.036276037,0.98967239,80,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function selu at 0x00000153B9DA0730>
+50,1.207032614,0.749733854,0.029134386,0.992307875,100,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,0.88533952,0.748757984,0.045226443,0.984695133,80,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,0.978493118,0.74844748,0.042770737,0.987354433,60,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.052684361,0.747915188,0.020197572,0.994879855,100,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.0001,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.108785601,0.746362669,0.048773028,0.983941003,80,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.187157978,0.746362669,0.032571929,0.991474364,40,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.003218918,0.745919092,0.044976988,0.984941218,100,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.107733512,0.745165011,0.051553097,0.983170997,80,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,4.106831027,0.745076295,0.462663008,0.971295436,80,32,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.1,<function selu at 0x00000153B9DA0730>
+50,1.116556769,0.745076295,0.03915183,0.989505688,60,256,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.110825655,0.743479418,0.351731393,0.978177864,40,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,0.967594027,0.742947126,0.053964676,0.979844887,40,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,0.822717783,0.742769695,0.058727185,0.977646004,60,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function selu at 0x00000153B9DA0730>
+50,4.156766828,0.742059972,0.368364757,0.977145896,40,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<function selu at 0x00000153B9DA0730>
+50,4.161290405,0.741793825,0.47942425,0.970255531,60,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.163263036,0.741660752,0.366573455,0.977257031,80,32,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,4.168941419,0.741350248,0.464331931,0.971184301,60,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,0.982879797,0.740995387,0.04651064,0.984814206,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function selu at 0x00000153B9DA0730>
+50,1.269207073,0.73997516,0.052147417,0.981670675,20,256,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.0001,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.1916581,0.739842087,0.346357543,0.978511268,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,1.26442535,0.739354152,0.059290359,0.978757353,60,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.207039154,0.738954933,0.398432708,0.975280417,100,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,4.207539998,0.738910575,0.346229595,0.978519206,40,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<function selu at 0x00000153B9DA0730>
+50,4.208743277,0.738688786,0.378180472,0.976518778,100,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,4.206409402,0.738688786,0.342278583,0.978733538,80,256,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.1,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,4.209321818,0.738644429,0.408540663,0.974653299,60,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,4.215413929,0.738466998,0.519099391,0.96777881,80,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.136757991,0.738378282,0.098184934,0.970168211,80,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.115851403,0.737535486,0.089114832,0.97220833,80,256,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.135862719,0.737491128,0.058560424,0.979090758,60,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.233246462,0.737313698,0.388196803,0.975915474,80,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<function elu at 0x00000153CA8B8A60>
+50,1.35123915,0.737136267,0.026296731,0.993458916,20,64,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,0.0001,<function relu at 0x00000153CA8B8C80>
+50,1.171342495,0.736470901,0.059429557,0.977947655,60,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.247992717,0.736382186,0.475180635,0.970509554,40,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.251538545,0.736204755,0.460871675,0.971406571,80,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.266015486,0.735317601,0.440144936,0.972692561,100,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<function selu at 0x00000153B9DA0730>
+50,4.272997378,0.734829666,0.470781315,0.970787391,80,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.201585912,0.734696593,0.114160651,0.969660165,60,256,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.282281815,0.734297374,0.472131175,0.970708009,40,32,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.185658165,0.732700497,0.057248087,0.979193954,40,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.159549542,0.732478708,0.094739044,0.970065014,20,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,1.144799646,0.732389993,0.064144636,0.976129806,80,64,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.086395221,0.731813343,0.064009464,0.976637851,60,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.175945703,0.731502839,0.042643283,0.987441753,60,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,4.310504702,0.731414123,0.281362898,0.978360442,20,32,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.1,<function selu at 0x00000153B9DA0730>
+50,4.336823913,0.730660043,0.377960898,0.976550531,80,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.1,<function selu at 0x00000153B9DA0730>
+50,1.247473264,0.72782115,0.064909578,0.975280417,40,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.208648297,0.727555004,0.076041747,0.974454843,40,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.209581052,0.726002484,0.082111016,0.974224635,40,64,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.266498625,0.724937899,0.091808054,0.970985846,20,32,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.078038601,0.724006388,0.091638507,0.971041414,20,64,30,50,0,normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.331278403,0.722675656,0.102476244,0.969040985,20,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<function relu at 0x00000153CA8B8C80>
+50,1.3009738,0.720280341,0.095133967,0.96839799,20,64,30,50,0,lecun_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,4.519504565,0.719570617,0.554646661,0.965571988,60,32,30,50,0,normal,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,4.588461925,0.715312278,0.995825617,0.938216919,80,32,30,50,0,he_uniform,<class 'keras.optimizers.Adam'>,0.1,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.314777825,0.713804116,0.126726915,0.964285998,40,256,30,50,0,he_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<class 'keras.layers.advanced_activations.PReLU'>
+50,1.30167101,0.711497516,0.224492134,0.937621554,20,256,30,50,0,glorot_normal,<class 'keras.optimizers.Adam'>,1.00E-05,<keras.layers.advanced_activations.LeakyReLU object at 0x7f8572c2c3c8>
+50,1.756727303,0.706041519,0.102948681,0.968961603,20,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,1.00E-05,<function elu at 0x00000153CA8B8A60>
+50,5.141699482,0.68093506,1.783734402,0.889333429,100,64,30,50,0,lecun_uniform,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
+50,5.447401632,0.661994322,1.785141838,0.889246108,100,64,30,50,0,glorot_uniform,<class 'keras.optimizers.Adam'>,0.1,<function relu at 0x00000153CA8B8C80>
