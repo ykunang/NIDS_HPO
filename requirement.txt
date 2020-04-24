@@ -1,0 +1,4 @@
+## Please list additional packages with version numbers
+tensorflow==1.13.1
+scipy==1.2.0
+talos==0.4.5
